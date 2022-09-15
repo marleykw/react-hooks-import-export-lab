@@ -1,6 +1,7 @@
 import React from "react";
 
-function About() {
+function About(props) {
+  let image = props.image
   return (
     <div id="about">
       <h2>About Me</h2>
@@ -9,3 +10,5 @@ function About() {
     </div>
   );
 }
+
+export default About;

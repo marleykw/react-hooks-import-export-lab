@@ -1,6 +1,8 @@
 import React from "react";
 
-function Home() {
+function Home(props) {
+  let username = props.username
+  let city = props.city
   return (
     <div id="home">
       <h1>
@@ -9,3 +11,5 @@ function Home() {
     </div>
   );
 }
+
+export default Home;
